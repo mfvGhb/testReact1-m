@@ -4,8 +4,15 @@
   text-align: center;
 }
 
-#bord {
+.bordRed {
  color:red ;
  border: solid  black 1px ;
-  
+ padding: 15px;
 }
+
+.bordGreen {
+  color:green ;
+  border: solid  black 1px ;
+  padding: 10px;
+ }
+ 
