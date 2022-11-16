@@ -12,7 +12,9 @@ export default function App() {
     <div className="App">
       <h1>Hello CodeSandbox</h1>
       <App1  {...objInit}> Children </App1>
-     
+      <button>Increment+</button><br/><br/>
+      <button>Decrement*</button>
+
     </div>
   );
 }
