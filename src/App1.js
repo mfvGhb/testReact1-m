@@ -5,7 +5,7 @@ let  App1 = (props) =>
                                                   {props.text}{props.val}
    </h3>
 
-let  App2 = (props) =><h3 {...props}> App2: перeдано</h3>
+let  App2 = (props) =><h3 {...props}> App2: перeдано {props.className}</h3>
 let  App3 = (props) =><div {...props}>перeдано: {props.children}</div>
 
 
